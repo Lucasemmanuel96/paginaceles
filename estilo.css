@@ -1,0 +1,747 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("imagenes/fondo-pestañas.jpg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  z-index: 1;
+  background-attachment: fixed;
+
+
+
+  
+    
+
+}
+
+.logo-responsive{
+  display: none;
+}
+
+
+.textos-h{
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+
+.titulo{
+  color: aliceblue;
+  text-align: center;
+  font-size: 70px;
+  
+
+}
+
+nav{
+   
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 2 !important;
+  -webkit-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.75);
+}
+
+.logo{
+  height: 3.5vw; 
+  margin-top: 13px;
+}
+
+
+#check{
+  display: none;
+}
+
+.boton-nav{
+  display: none;
+}
+
+nav ul{
+  float: right;
+  margin-right: 30px;
+  display: flex;
+
+ 
+}
+
+nav ul li{
+display: flex;
+  line-height: 80px;
+  margin: 0 15px;
+  
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+
+a:hover{
+color: rgb(136, 133, 133);
+
+}
+
+.principal{
+
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url('imagenes/fondomain2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  
+
+  
+}
+
+
+section{
+  
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.titulo-sec1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 250px;
+  margin-bottom: 180px;
+  color: white;
+  font-size: 70px;
+  
+}
+
+.cont1{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+
+
+ height: 400px;
+ width: 60%;
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+ border-radius: 40px;
+
+ 
+ margin-bottom: 120px;
+
+}
+
+.descripcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
+}
+
+
+.texto-descripcion{
+  color: white;
+  margin-top: 50px;
+  
+}
+
+.img1{
+ max-width: 30%;
+  height: auto;
+  border-radius: 100px;
+  margin:auto 60px;
+  
+}
+
+.perfilado{
+  color: white;
+  font-size: 4vw;
+  box-sizing: border-box;
+  padding-left: 20px;
+  
+}
+
+.sec2{
+ 
+  background:url('fondo-section2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sec2{
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.metodos-de-pago{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(245, 245, 245, 0.452),rgba(247, 244, 244, 0.828)) ;
+ 
+ 
+  height: 400px;
+  width: 80%;
+  
+
+  margin-top: 100px;
+ 
+  
+  margin-bottom: 120px;
+  border-radius: 50px;
+ 
+
+
+
+}
+
+.titulo-sec2{
+  font-size: 60px;
+  color: rgb(62, 61, 63);
+  position: relative;
+  bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.732);
+
+}
+
+.trans{
+  height: 120px;
+padding-left: 40px;
+}
+.mercado{
+  height: 120px;
+  padding-left: 40px;
+}
+
+.efectivo{
+  height: 120px;
+  padding-left: 40px;
+}
+
+
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.whatsapp-float img {
+  width: 10rem;
+ 
+ height: auto;
+}
+
+.whatsapp-float:hover {
+ transform: scale(1.1);
+}
+
+footer{
+
+  background-color: rgb(30, 31, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.titulo-footer{
+
+  align-items: center;
+  margin-top: 100px;
+  color: white;
+
+
+}
+
+.instagram{
+  display: flex;
+  
+  height: 100px;
+  width: 500px;
+  margin-bottom: 80px;
+  margin-top: 100px;
+
+
+}
+
+.icono-insta{
+  height: 100px;
+
+  margin-top: 4px;
+  margin-right: 3px;
+}
+
+
+.h3-insta{
+  color: white;
+  margin-top: 2px;
+  font-size: 30px;
+}
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+  transition: transform 0.2s;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} */
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+
+
+  */
+
+
+ 
+
+ 
+ 
+  @media (max-width: 768px) {
+  
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      text-align: center;
+    }
+
+  
+
+   nav{
+    height: 5rem;
+    background-color: black;
+    margin-bottom: 4rem;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+
+   
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    -webkit-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.75);
+    
+   }
+
+   .check-btn{
+    font-size: 2.5rem;
+   }
+
+   #check{
+    display: none;
+
+   }
+
+  
+  .boton-nav{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+    margin-right: 2.5rem;
+    position: fixed;
+    z-index: 2;
+    
+
+  }
+#mi-elemento{
+  display: none;
+}
+
+
+   ul{
+
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(50, 50, 50); /* Fondo oscuro semitransparente */
+    /* Coloca el ul debajo del nav */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    z-index: 1;
+   
+
+    
+
+
+
+
+   }
+
+
+
+
+   li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem !important;
+    flex-direction: column !important;
+    line-height: 0;
+
+
+   }
+
+   a{
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+   }
+
+   .logo-responsive{
+    height: 2.5rem;
+    display: block;
+    margin-top: 1.2rem;
+    margin-right: 1.5rem;
+  }
+  
+   /* recuerda borrar esto */
+    img{
+    display: none;
+   }
+
+
+   header{
+    margin-top: 4rem;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("imagenes/fondo-pestañas.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+   height: 40rem;
+   background-position: 30% center;
+
+   }
+
+   .textos-h{
+    position: relative;
+  top: 6rem;
+  text-align: center;
+  padding: 3rem;
+  color: white;
+  
+
+ 
+  
+
+   }
+
+   .titulo{
+    padding: 50px;
+    font-size: 2.2rem;
+   }
+
+   .principal{
+
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url('imagenes/fondomain2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: 89% center;
+  
+    
+  
+    
+  }
+
+  section{
+  
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+  }
+
+  .sec1{
+    display: flex;
+    padding-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+ .titulo-sec1{
+  padding-bottom: 2.5rem;
+  color: white;
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  margin-bottom:2rem;
+ }
+
+ .cont1{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 1rem;
+ flex-direction: column;
+ padding: 1rem;
+ width: 80%;
+ overflow: hidden;
+
+
+ height: 25rem;
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+ border-radius: 40px;
+
+ 
+ margin-bottom:1rem;
+
+ 
+
+
+}
+
+.perfilado{
+  color: white;
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding-left: 0;
+
+}
+
+
+.texto-descripcion{
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+
+.descripcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  flex-direction: column;
+}
+
+.img1{
+  max-width: 100%;
+  display: block;
+  height: 8rem;
+  border-radius: 30%;
+  margin:0;
+}
+
+.sec2{
+ 
+  background:url('fondo-section2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 30%;
+
+
+ 
+}
+
+.metodos-de-pago{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5rem;
+
+  
+}
+
+
+
+.titulo-sec2{
+  margin: 2rem;
+  font-size: 2rem;
+  color: rgb(62, 61, 63);
+  position: relative;
+  bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.732);
+
+
+}
+
+
+
+.met1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.trans{
+  display: block;
+  height: 5rem;
+    margin-bottom: 2rem;
+  padding-left: 0;  
+
+
+
+}
+.mercado{
+  display: block;
+  height: 6rem;
+  margin-bottom: 2rem;
+padding-left: 0;
+}
+.efectivo{
+  display: block;
+  height: 10rem;
+  margin-bottom: 2rem;
+padding-left: 0;
+}
+
+.metodos-de-pago{
+  background: linear-gradient(rgba(245, 245, 245, 0.452),rgba(247, 244, 244, 0.828)) ;
+  height: 20%;
+ margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 2rem;
+  right: 0.4rem;
+  z-index: 999;
+}
+
+.whatsapp-float img {
+  width: 5rem;
+  display: block;
+ 
+ height: auto;
+}
+
+.whatsapp-float:hover {
+ transform: scale(1.1);
+}
+
+footer{
+
+  background-color: rgb(30, 31, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.titulo-footer{
+
+  align-items: center;
+  margin-top: 3rem;
+  color: white;
+
+
+}
+
+
+.instagram{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  height: 100%;
+  width:100%;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+
+
+}
+
+.icono-insta{
+  height: 7rem;
+
+  margin-top: 0;
+  margin-right: 0;
+  display: flex;
+  margin-bottom: 3rem;
+
+
+}
+
+.h3-insta{
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+
+  
+
+  }
+  }

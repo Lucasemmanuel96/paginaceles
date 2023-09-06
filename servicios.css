@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+
+  .fondo-main-servicios{
+   
+   align-items: center;
+   justify-content: center;
+
+   
+   
+   background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url('imagenes/fondomain2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+
+   
+  }
+
+  .div-h1{
+    padding-top: 200px !important;
+    align-items: center;
+   justify-content: center;
+   display: flex;
+  }
+
+  .h1-ser{
+   
+    font-size: 60px;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+
+
+  }
+
+  .container{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+  margin-top: 100px;
+  margin-bottom: 100px;
+ 
+  
+    
+
+  }
+
+  .container-de-tarjetas{
+    display: flex;
+    
+    height: 300px;
+    width: 90%;
+    margin: 30px 40px;
+    
+
+    
+  }
+
+  .tarjeta{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 85%;
+    margin: 5px 20px;
+    border-radius: 60px;
+
+
+
+ background-color: rgb(56, 57, 58);
+ -webkit-box-shadow: -7px 16px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 16px 5px -1px rgba(0,0,0,0.75);
+box-shadow: -7px 16px 5px -1px rgba(0,0,0,0.75);
+
+
+  }
+
+
+  /*Contenido de Tarjetas */
+
+
+  .h1-tarjeta{
+    font-size: 45px;
+    margin-top: 50px;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+  }
+
+  /* Texto de tarjeta */
+
+  .texto-tar{
+    margin-top: 5px;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+  }
+
+  
+
+
+
+
+
+
